@@ -9,6 +9,8 @@ Once the "mysolution" executable has compiled, it should be within the
 Type "./mysolution" into your terminal to
 get the hexadecimal converted character data from channel 7.
 
+The source code to my solution, "solution.cpp", is located in the /src directory
+
 ## Hexadecimal Converted Output From Channel 7 ##
 
 output: 37 34 5 0 
