@@ -29,28 +29,7 @@ int main()
 		//flag variable that will keep track of the number 
 		//of lines outputted; the first lines is indexed as 0
 		int lines = 0;
-			
-		/*	
-		std::cout<<"data size " <<data.size()<<std::endl;
-		for(int i=0 ; i<data.size(); i++){
-			std::cout<<std::hex <<(int) data[i]<<std::endl;
-
-		}	
-		if(channel->HasData())
-		{
-			
-			data = channel->GetData();
-			std::cout<<"data size " <<data.size()<<std::endl;
-			for(int i=0; i<data.size() ;i++){
-				std::cout<<i<<std::endl;
-
-			}
-
-		}
-		else
-			std::cout<<"no more data!"<<std::endl;
-
-		*/
+		
 		for(int i=0;i<data.size();i++){
 			//if there are more than 10 lines we break 
 			if(lines > 9 )
@@ -87,7 +66,9 @@ int main()
 		std::cout<<"Error! Channel doesn't have data or connection is not open."<<std::endl;
 	}
 
-
+	//calling before destruction
+	channel->Close();
+	
 		
 	return 0;
 
