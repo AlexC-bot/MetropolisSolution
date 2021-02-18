@@ -10,4 +10,7 @@ Type "./mysolution" into your terminal to
 get the hexadecimal converted character data from channel 7.
 
 ## Hexadecimal Converted Output From Channel 7 ##
+
 output: 37 34 5 0 
+
+I was only receiving 4 chracters form Channel 7.
