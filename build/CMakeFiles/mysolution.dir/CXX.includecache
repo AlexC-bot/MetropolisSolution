@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alex/c++/mysolution/src/libmetcom/include/metcom/metcom.h
+string
+-
+vector
+-
+metcom_export.h
+/home/alex/c++/mysolution/src/libmetcom/include/metcom/metcom_export.h
+
+/home/alex/c++/mysolution/src/solution.cpp
+libmetcom/include/metcom/metcom.h
+/home/alex/c++/mysolution/src/libmetcom/include/metcom/metcom.h
+iostream
+-
+string
+-
+vector
+-
+
+exports/metcom_export.h
+

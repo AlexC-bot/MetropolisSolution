@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/mysolution.dir/solution.cpp.o  -o mysolution  -Wl,-rpath,/home/alex/c++/mysolution/build/libmetcom libmetcom/libmetcom.so.0.1.0 

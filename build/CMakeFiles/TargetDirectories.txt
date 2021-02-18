@@ -1,0 +1,6 @@
+/home/alex/c++/mysolution/build/CMakeFiles/rebuild_cache.dir
+/home/alex/c++/mysolution/build/CMakeFiles/edit_cache.dir
+/home/alex/c++/mysolution/build/CMakeFiles/mysolution.dir
+/home/alex/c++/mysolution/build/libmetcom/CMakeFiles/rebuild_cache.dir
+/home/alex/c++/mysolution/build/libmetcom/CMakeFiles/edit_cache.dir
+/home/alex/c++/mysolution/build/libmetcom/CMakeFiles/metcom.dir
